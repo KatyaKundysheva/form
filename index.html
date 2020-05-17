@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scals=1">
+	<title>Document</title>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;1,300&display=swap" rel="stylesheet">
+	<style>
+		 
+		* {
+			box-sizing: border-box;
+		}
+		html {
+			font-size: 16px;
+		}
+		body{
+			margin: 0;
+			font-family: 'Roboto', sans-serif;
+			background-color: LightCyan ;
+		}
+		.form-container {
+			background-color: lightBlue ;
+			max-width: 450px;
+			width: 100%;
+			margin: auto;
+			padding: 40px;
+			
+		}
+		#form {
+
+		}
+		input {
+			display: block;
+			width: 100%;
+			margin: 0.5rem 0;
+			padding: 0.4rem 0;
+			outline: none;
+			font-size: 1rem;
+		}
+		.form-heading {
+			margin-top:15;
+			font-size: 1.5rem;
+			font-weight:500;
+			
+		}
+
+	</style>
+</head>
+<body>
+	<div class="form-container">
+		<h3 class= "form-heading">Форма</h3>
+		<form id="form" action="https://getsimpleform.com/messages?form_api_token=c18983ae88a9b574e4d8aa022f660771" method="post">
+			<input id="name" name="name" type="text" placeholder="Name">
+			<input id="email" name="_replyto" type="email" placeholder="E-mail">
+			<input id="submit" type="submit" value="Отправить" style="background-color: Azure" >
+		</form>
+	</div>
+	
+</body>
+</html>
